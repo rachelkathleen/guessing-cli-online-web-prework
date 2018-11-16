@@ -8,10 +8,9 @@ def run_guessing_game
   case input
   when "exit"
     puts "Goodbye!"
-  when = number
+  when number
     puts "You guessed the correct number!"
-  when != number
+  else
     puts "The computer guessed #{number}."
-  end
 end
 end
