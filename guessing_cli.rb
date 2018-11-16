@@ -12,5 +12,5 @@ def run_guessing_game
     puts "You guessed the correct number!"
   when != number
     puts "The computer guessed #{number}."
-
+  end
 end
