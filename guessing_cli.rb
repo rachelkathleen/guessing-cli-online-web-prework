@@ -6,7 +6,11 @@ def run_guessing_game
   input = gets.downcase.chomp
   number = random(1..6).to_s
   case input
-  when "exit" 
+  when "exit"
     puts "Goodbye!"
-    
+  when = number
+    puts "You guessed the correct number!"
+  when != number
+    puts "The computer guessed #{number}."
+
 end
